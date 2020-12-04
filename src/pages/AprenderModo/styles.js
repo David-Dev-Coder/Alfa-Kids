@@ -1,0 +1,130 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    subTitleContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+    },
+    letter: {
+        fontSize: 32,
+        fontWeight: 'bold',
+        color: 'white',
+        textShadowOffset: {width: 1.5, height: 1},
+        textShadowColor: 'grey',
+        textShadowRadius: 2,
+        elevation: 3,
+        padding: 2,
+    },
+    letterBox: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexWrap: 'wrap',
+        padding: 5,
+        position: "absolute",
+        bottom: 10,
+    },
+    letterContent: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#fff',
+        width: 50,
+        height: 50,
+        borderRadius: 5,
+        // borderColor: '#000',
+        // borderWidth: 1,
+        margin: 2,
+        shadowOffset: {width: 0, height: 1},
+        shadowColor: 'black',
+        shadowOpacity: 0.4,
+        shadowRadius: 5,
+        elevation: 2,
+    },
+    letterContentExtend: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#fff',
+        width: 150,
+        height: 50,
+        borderRadius: 5,
+        borderColor: '#000',
+        borderWidth: 1,
+        margin: 2,
+    },
+    tipContainer: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: 50,
+        height: 50,
+        borderRadius: 50,
+        borderColor: 'grey',
+        borderWidth: 1,
+    },
+    centeredView: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: 22
+    },
+    modalView: {
+        margin: 20,
+        backgroundColor: "white",
+        borderRadius: 20,
+        padding: 80,
+        alignItems: "center",
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+    },
+    openButton: {
+        width: 25,
+        height: 25,
+        backgroundColor: "red",
+        borderRadius: 25,
+        elevation: 2,
+        position: "absolute",
+        top: 5,
+        right: 5,
+    },
+    textStyle: {
+        color: "white",
+        fontWeight: "bold",
+        textAlign: "center",
+    },
+    modalText: {
+        marginBottom: 15,
+        textAlign: "center"
+    },
+    countContainer: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: 18,
+        height: 18,
+        borderRadius: 10,
+        borderColor: 'white',
+        borderWidth: 1,
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        backgroundColor: 'orange',
+    },
+    countText: {
+        color: 'white',
+        transform: [
+            {translateX: -0.4},
+            {translateY: -0.6}
+        ],
+        fontSize: 14.5,
+        fontWeight: 'bold',
+    },
+})
+
+export default styles;
